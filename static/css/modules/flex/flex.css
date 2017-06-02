@@ -132,6 +132,113 @@
   background-color: rgba(247, 247, 248, 0.85);
 }
 
+.nine-palaces, .hl-container .nine-palaces-1, .hl-container .nine-palaces-2, .hl-container .nine-palaces-3, .hl-container .nine-palaces-4, .hl-container .nine-palaces-5, .hl-container .nine-palaces-6, .hl-container .nine-palaces-7, .hl-container .nine-palaces-8, .hl-container-2 .nine-palaces-two-1 {
+  display: -webkit-flex;
+  display: flex;
+  width: 140px;
+  height: 140px;
+  margin: 30px;
+  padding: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.hl-container {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.hl-container .nine-palaces, .hl-container .nine-palaces-1, .hl-container .nine-palaces-2, .hl-container .nine-palaces-3, .hl-container .nine-palaces-4, .hl-container .nine-palaces-5, .hl-container .nine-palaces-6, .hl-container .nine-palaces-7, .hl-container .nine-palaces-8, .hl-container .hl-container-2 .nine-palaces-two-1, .hl-container-2 .hl-container .nine-palaces-two-1 {
+  display: -webkit-flex;
+  display: flex;
+  width: 140px;
+  height: 140px;
+  margin: 30px;
+  padding: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+.hl-container .row-type-1 {
+  width: 40px;
+  height: 40px;
+  background-color: #000;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+.hl-container .nine-palaces-1 {
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.hl-container .nine-palaces-2 {
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
+}
+.hl-container .nine-palaces-3 {
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.hl-container .nine-palaces-4 {
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.hl-container .nine-palaces-5 {
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.hl-container .nine-palaces-6 {
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+  -webkit-align-items: flex-end;
+  align-items: flex-end;
+}
+.hl-container .nine-palaces-7 {
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: flex-end;
+  align-items: flex-end;
+}
+.hl-container .nine-palaces-8 {
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
+  -webkit-align-items: flex-end;
+  align-items: flex-end;
+}
+
+.hl-container-2 {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.hl-container-2 .nine-palaces-two-1 {
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+.hl-container-2 .two-row {
+  width: 40px;
+  height: 40px;
+  background-color: #000;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
 @-moz-keyframes close_animation {
   100% {
     opacity: 1;
