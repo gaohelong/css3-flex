@@ -1,4 +1,4 @@
-.nine-palaces, .hl-container .nine-palaces-1, .hl-container .nine-palaces-2, .hl-container .nine-palaces-3, .hl-container .nine-palaces-4, .hl-container .nine-palaces-5, .hl-container .nine-palaces-6, .hl-container .nine-palaces-7, .hl-container .nine-palaces-8, .hl-container-2 .nine-palaces-two-1 {
+.nine-palaces, .hl-container .nine-palaces-1, .hl-container .nine-palaces-2, .hl-container .nine-palaces-3, .hl-container .nine-palaces-4, .hl-container .nine-palaces-5, .hl-container .nine-palaces-6, .hl-container .nine-palaces-7, .hl-container .nine-palaces-8, .hl-container-2 .nine-palaces-two-1, .hl-container-2 .nine-palaces-two-2 {
   display: -webkit-flex;
   display: flex;
   width: 140px;
@@ -19,7 +19,7 @@
   -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
 }
-.hl-container .nine-palaces, .hl-container .nine-palaces-1, .hl-container .nine-palaces-2, .hl-container .nine-palaces-3, .hl-container .nine-palaces-4, .hl-container .nine-palaces-5, .hl-container .nine-palaces-6, .hl-container .nine-palaces-7, .hl-container .nine-palaces-8, .hl-container .hl-container-2 .nine-palaces-two-1, .hl-container-2 .hl-container .nine-palaces-two-1 {
+.hl-container .nine-palaces, .hl-container .nine-palaces-1, .hl-container .nine-palaces-2, .hl-container .nine-palaces-3, .hl-container .nine-palaces-4, .hl-container .nine-palaces-5, .hl-container .nine-palaces-6, .hl-container .nine-palaces-7, .hl-container .nine-palaces-8, .hl-container .hl-container-2 .nine-palaces-two-1, .hl-container-2 .hl-container .nine-palaces-two-1, .hl-container .hl-container-2 .nine-palaces-two-2, .hl-container-2 .hl-container .nine-palaces-two-2 {
   display: -webkit-flex;
   display: flex;
   width: 140px;
@@ -103,6 +103,12 @@
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   border-radius: 50%;
+}
+.hl-container-2 .nine-palaces-two-2 {
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
 }
 
 @-moz-keyframes close_animation {

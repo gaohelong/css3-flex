@@ -113,6 +113,13 @@ $img-login-url: #{$img-url}#{'login/'}    !default;
         background-color:   $black;
         @include            border-radius(50%);
     }
+
+    // 实例2.
+    .nine-palaces-two-2 {
+        @extend             .nine-palaces;
+        @include            flex-direction(column);
+        @include            justify-content(space-between);
+    }
 }
 
 // animation.
